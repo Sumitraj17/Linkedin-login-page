@@ -1,0 +1,151 @@
+*{
+    background-color:white;
+    outline: none;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 5rem 2fr;
+}
+.nav-bar{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+}
+.nav-bar ul{
+    display: flex;
+    grid-column: 2/-1;
+    font-size: 1.75rem;
+    margin-left: 2.5rem;
+    position: absolute;
+}
+li{
+    margin-left: 2.5rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 4px;
+}
+.line{
+    margin-left:8px ;
+}
+a:hover{
+    color: black;
+}
+.nav-btn{
+    margin-bottom: 7rem;
+    margin-left: 2rem;
+    border-radius: 4rem;
+    border: 1px solid blue;
+    color: blue;
+    padding: 8px;
+    width: 6rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.join{
+    color: black;
+    font-size:1.5rem ;
+    border: transparent;
+    width: 6rem;
+    height: 3rem;
+    padding: 5px;
+}
+.join:hover{
+    background-color: rgb(230, 221, 221);
+    border-radius: 4rem;
+}
+.nav-btn:hover{
+    background-color: rgb(187, 243, 240);
+    color: rgb(150, 132, 132);
+}
+.logo{
+    margin: 2rem;
+    margin-left:6rem;
+}
+.img{
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    padding: 0 15px;
+    height: 100%;
+}
+.login{
+    grid-column: 1/2;
+    grid-row:2/-1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding-left: 6rem;
+    
+}
+.log-in{
+    margin-top: 1.5rem;
+}
+.hr{
+    padding-left: 8rem;
+    width: 20rem;
+}
+.main-head{
+    font-size: 5rem;
+    /* padding-left: 6rem; */
+    color: rgb(136, 98, 2);
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 200px;
+}
+input{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    width: 35rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+input:focus{
+    border: 3px solid rgb(7, 129, 170);
+}
+.forgot{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: black;
+}
+.forgot:hover{
+    color:rgb(7, 129, 170) ;
+    text-decoration: underline;
+}
+.main-btn{
+    width: 35rem;
+    height: 4rem;
+    font-size: 2rem;
+    color: white;
+    margin-bottom:2rem ;
+    background-color: rgb(7, 129, 170);
+    border-radius: 4rem;
+    border: transparent;
+}
+.main-google{
+    width: 35rem;
+    height: 4rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 4rem;
+    color: rgb(121, 118, 118);
+}
+.main-btn:hover{
+    background-color: rgb(3, 119, 158);
+}
+.main-google:hover{
+    border: 3px solid black;
+    color: black;
+}
